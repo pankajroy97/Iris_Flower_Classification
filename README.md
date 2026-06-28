@@ -1,7 +1,7 @@
 # Iris_Flower_Classification
 Use the Iris dataset to develop a model that can classify iris flowers into different species based on their sepal and petal measurements. 
 
-Model Performance Analysis
+**Model Performance Analysis**
 
 Four machine learning algorithms were trained and evaluated on the Iris dataset:
 | Model                           | Training Accuracy | Testing Accuracy | Remarks                                                       |
@@ -12,7 +12,7 @@ Four machine learning algorithms were trained and evaluated on the Iris dataset:
 | Decision Tree (Default)         |       **100.00%** |       **97.78%** | Perfect training accuracy indicates overfitting               |
 | Decision Tree (Tuned)           |            97.14% |           95.56% | Reduced overfitting but lower testing accuracy                |
 
-Detailed Analysis
+**Detailed Analysis**
 1. Logistic Regression
 Training Accuracy: 97.14%
 Testing Accuracy: 97.78%
@@ -41,7 +41,7 @@ Achieved the same testing accuracy as Logistic Regression.
 Lower training accuracy indicates the model is less likely to overfit.
 Performance depends on the choice of K (n_neighbors=7).
 
-5. Decision Tree (Default)
+4. Decision Tree (Default)
 Training Accuracy: 100%
 Testing Accuracy: 97.78%
 
@@ -74,7 +74,7 @@ Hyperparameter tuning successfully reduced overfitting.
 The gap between training and testing accuracy became smaller.
 However, testing accuracy decreased compared to the default Decision Tree.
 
-Best Model Selection
+**Best Model Selection**
 
 Although Logistic Regression, KNN, and the default Decision Tree all achieved a testing accuracy of 97.78%, the Logistic Regression model is the best choice for this project.
 
